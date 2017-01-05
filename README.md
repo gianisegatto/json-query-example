@@ -156,7 +156,7 @@ curl http://localhost:8080/products
 ]
 ```
 
-#### Call asking to format the response formatted as [{"key": "name", "numberOfAttributes": 10}...]
+#### Call asking to response format be [{"key": "name", "numberOfAttributes": 10}...]
 - Open the terminal and type
 ```
 curl --request GET \
@@ -210,7 +210,7 @@ curl --request GET \
 ]
 ```
 
-#### Call asking to format the response formatted return the first item of the list
+#### Call asking to response return the first item of the list
 - Open the terminal and type
 ```
 curl --request GET \
